@@ -10,7 +10,7 @@ pipeline{
     stages{
         stage ("Clone the code"){
             steps{
-                git branch: 'main', url: 'https://github.com/Bathalapalli-SaiRangaPavan/twittertrend.git'
+                git branch: 'main', url: 'https://github.com/RojaGunupuru/twittertrend.git'
             }
         }
         stage ("Build the code"){
