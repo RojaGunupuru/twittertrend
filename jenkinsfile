@@ -5,7 +5,7 @@ pipeline{
         }
     }
     environment {
-            PATH = "/opt/apache-maven-3.8.7/bin:$PATH"
+            PATH = "/opt/maven/bin/:$PATH"
     }
     stages{
         stage ("Clone the code"){
